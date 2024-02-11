@@ -1,0 +1,28 @@
+.sobrenosotros{
+    margin-top: 63px;
+}
+
+.normas{
+    background-color: black;
+    color: #fff;
+    margin-top: 63px;
+}
+
+.galeria{
+    margin-top: 63px;
+}
+
+
+
+.posicion{
+    margin-top: 43px;
+    margin-left: 134px;
+}
+
+@media (max-width: 767px) {
+    .posicion {
+        margin-top: 0; /* Cambiar o ajustar según sea necesario */
+        margin-left: 0; /* Cambiar o ajustar según sea necesario */
+    }
+}
+
