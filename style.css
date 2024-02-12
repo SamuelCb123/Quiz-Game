@@ -27,13 +27,13 @@
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
     border-radius: 33px; 
   }
   
   .form-register h4 {
+    margin-right: 123px;
     font-size: 22px;
     margin-bottom: 20px;
   }
@@ -45,9 +45,7 @@
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
-    font-family: 'calibri';
     font-size: 18px;
-    color: white;
     border-radius:12%;
   }
   
@@ -63,14 +61,11 @@
     text-decoration: none;
   }
   
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
+
   
   .form-register .botons {
     width: 100%;
-    background: #1f53c5;
+    background: #6A0DAD;
     border: none;
     padding: 12px;
     color: white;
