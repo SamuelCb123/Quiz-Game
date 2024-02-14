@@ -40,11 +40,10 @@
 
 
 
-<form class="form-register" method="post" action="registroconsultas.php">
+<form class="form-register" method="post" action="iniciarsesionconsultas.php">
     <h4 class="justify-content-center">Iniciar sesion</h4>
-    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
-    <input class="controls" type="password" name="contraseña" id="contrasena" placeholder="Ingrese su Contraseña">
     <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo">
+    <input class="controls" type="password" name="contraseña" id="contrasena" placeholder="Ingrese su Contraseña">
     <input class="botons" type="submit" value="Registrar">
     <p><a href="registro.php">¿Aun no tienes cuenta?</a></p>
 </form>
