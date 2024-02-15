@@ -39,29 +39,37 @@
              <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/biologia.jpg" class="card-img-top" alt="Biología" >
                     <div class="card-body">
-                  
+                    <a href="registro.php">
+                    <button class="botones">PLA</button>
+                  </a> 
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/matematicas.png" class="card-img-top" alt="Matemáticas">
                     <div class="card-body">
-                      
+                    <a href="registro.php">
+                    <button class="botones">Registro</button>
+                  </a> 
                     </div>
                 </div>
 
                    
                 <div class="card" style="width: 18rem; display: inline-block;">
-                    <img src="IMG/fisica.jpeg" class="card-img-top" alt="Matemáticas">
+                    <img src="IMG/fisica.jpeg" class="card-img-top" alt="fisica">
                     <div class="card-body">
-                      
+                    <a href="registro.php">
+                    <button class="botones">Registro</button>
+                  </a> 
                     </div>
                 </div>
                 
                 <div class="card" style="width: 18rem; display: inline-block;">
-                    <img src="IMG/mate" class="card-img-top" alt="Matemáticas">
+                    <img src="IMG/qumica.jpg" class="card-img-top" alt="quimica">
                     <div class="card-body">
-                      
+                    <a href="registro.php">
+                    <button class="botones">Registro</button>
+                  </a> 
                     </div>
                 </div>
                 
