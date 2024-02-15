@@ -74,6 +74,17 @@
   }
 
 
+ 
+
+
+
+
+
+  .card-img-top{
+    height: 200px;
+    object-fit: cover
+  }
+
   .botones{
     background: #6A0DAD;
     color: white;
