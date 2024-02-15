@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 <body>
 
 <header class="p-3 bg-dark text-white">
@@ -31,22 +28,22 @@
                     <button class="botones">Registro</button>
                   </a> 
                   <a href="iniciarsesion.php">
-                    <button class="botones">Iniciar sesion</button>
+                    <button class="botones">Iniciar sesión</button>
                   </a> 
             </div>
         </div>
     </div>
 </header>
 
-
-
-<form class="form-register" method="post" action="iniciarsesionconsultas.php">
-    <h4 class="justify-content-center">Iniciar sesion</h4>
+<form class="form-register" method="post" action="iniciarsesionconsultas.php " id="form">
+    <h4 class="justify-content-center">Iniciar sesión</h4>
     <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo">
     <input class="controls" type="password" name="contraseña" id="contrasena" placeholder="Ingrese su Contraseña">
-    <input class="botons" type="submit" value="Registrar">
-    <p><a href="registro.php">¿Aun no tienes cuenta?</a></p>
+    <input class="botons" type="submit" value="Iniciar sesión">
+    <p class="warnings" id="warnings"></p>
 </form>
 
+<script src="validacion2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>

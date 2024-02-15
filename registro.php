@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-
+<script defer src="validacion.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 <body>
 
@@ -39,15 +39,15 @@
 </header>
 
 
-
-<form class="form-register" method="post" action="registroconsultas.php">
-    <h4 class="justify-content-center">Registro</h4>
-    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
-    <input class="controls" type="password" name="contraseña" id="contrasena" placeholder="Ingrese su Contraseña">
-    <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo">
-    <input class="botons" type="submit" value="Registrar">
-    <p><a href="iniciarsesion.php">¿Ya tienes Cuenta?</a></p>
-</form>
+    <form class="form-register" method="post" action="registroconsultas.php" id="form">
+        <h4 class="justify-content-center">Registro</h4>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+        <input class="controls" type="password" name="contraseña" id="contrasena" placeholder="Ingrese su Contraseña">
+        <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo">
+        <input class="botons" type="submit" value="Registrar">
+        <p class="warnings" id="warnings"></p>
+      
+    </form>
 
 </body>
 </html>

@@ -31,54 +31,79 @@
         </div>
     </div>
 </header>
+
 <section class="secciones">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <h2 class="categorias">Seleccione una categoria</h2>
-             <div class="card" style="width: 18rem; display: inline-block;">
+                <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/biologia.jpg" class="card-img-top" alt="Biología" >
                     <div class="card-body">
-                    <a href="registro.php">
-                    <button class="botones">PLA</button>
-                  </a> 
+                        <a href="registro.php">
+                            <button class="botones">PLAY</button>
+                        </a> 
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/matematicas.png" class="card-img-top" alt="Matemáticas">
                     <div class="card-body">
-                    <a href="registro.php">
-                    <button class="botones">Registro</button>
-                  </a> 
+                        <a href="registro.php">
+                            <button class="botones">PLAY</button>
+                        </a> 
                     </div>
                 </div>
 
-                   
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/fisica.jpeg" class="card-img-top" alt="fisica">
                     <div class="card-body">
-                    <a href="registro.php">
-                    <button class="botones">Registro</button>
-                  </a> 
+                        <a href="registro.php">
+                            <button class="botones">PLAY</button>
+                        </a> 
                     </div>
                 </div>
                 
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/qumica.jpg" class="card-img-top" alt="quimica">
                     <div class="card-body">
-                    <a href="registro.php">
-                    <button class="botones">Registro</button>
-                  </a> 
+                        <a href="registro.php">
+                            <button class="botones">PLAY</button>
+                        </a> 
                     </div>
                 </div>
-                
-                 <!-- Agrega más tarjetas según sea necesario -->
-
             </div>
         </div>
     </div>
 </section>
+
+
+<footer class="bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Curiosidades</h4>
+                <p>¿Sabías que el juego de trivia más largo registrado duró 36 horas?</p>
+                <p>Descubre más datos interesantes sobre el mundo del conocimiento.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Contacto</h4>
+                <p>Correo: info@quizgame.com</p>
+                <p>Teléfono: +123 456 789</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Síguenos</h4>
+                <p>Encuéntranos en redes sociales:</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" target="_blank">Facebook</a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank">Twitter</a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 
