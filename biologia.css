@@ -1,0 +1,18 @@
+
+  
+  
+.biologia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 345px;
+    }
+    
+
+.preguntas{
+ 
+    border: 12px solid #d6c5c5;
+    background-color: #C1E1C1 !important;
+    width: -250px;
+    height: 123px;
+}

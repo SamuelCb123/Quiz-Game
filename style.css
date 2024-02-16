@@ -1,3 +1,5 @@
+
+
 .sobrenosotros{
     margin-top: 63px;
   
@@ -115,7 +117,147 @@
 }
 
 
+.biologia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 263px;
 
+}
+
+.sobrenosotros{
+  margin-top: 63px;
+
+}
+
+.normas{
+  background-color: black;
+  color: #fff;
+  margin-top: 63px;
+}
+
+.galeria{
+  margin-top: 63px;
+}
+
+
+
+.posicion{
+  margin-top: 43px;
+  margin-left: 134px;
+}
+
+
+.form-register {
+  width: 440px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  border-radius: 33px; 
+}
+
+.form-register h4 {
+  display: flex;
+  margin-right: 123px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-size: 18px;
+  border-radius:12%;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.form-register .botons {
+  width: 100%;
+  background: #6A0DAD;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.card{
+  margin-bottom: 182px;
+  margin-top: 223px;
+  background-color: #800080;
+}
+
+
+.card-img-top{
+  height: 200px;
+  object-fit: cover
+}
+
+.botones{
+  background: #6A0DAD;
+  color: white;
+}
+
+.warnings {
+  width: 100%;
+  text-align: center;
+  color: red;
+  padding-top: 20px;
+  font-size: 7px;
+  margin-bottom: 123px;
+}
+
+.categorias{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 123px;
+}
+
+
+@media (max-width: 767px) {
+.posicion {
+  margin-top: 0; 
+  margin-left: 0; 
+}
+
+.form-register {
+  width: 90%; 
+  margin-top: 20px; 
+}
+.card {
+    margin-top: 30px;
+}
+
+}
+
+@media (max-width: 1023px) {
+.card {
+    margin-bottom: 33px 
+}
+}
 
 @media (max-width: 767px) {
   .posicion {
@@ -135,6 +277,6 @@
 
 @media (max-width: 1023px) {
   .card {
-      margin-bottom: 33px /* Reducir el margen inferior en tablets */
+      margin-bottom: 33px 
   }
 }
