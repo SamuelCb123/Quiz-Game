@@ -39,15 +39,14 @@
 </header>
 
 
-    <form class="form-register" method="post" action="registroconsultas.php" id="form">
-        <h4 class="justify-content-center">Registro</h4>
-        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
-        <input class="controls" type="password" name="contraseña" id="contrasena" placeholder="Ingrese su Contraseña">
-        <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo">
-        <input class="botons" type="submit" value="Registrar">
-        <p class="warnings" id="warnings"></p>
-      
-    </form>
+<form class="form-register" method="post" action="registroconsultas.php" id="form">
+    <h4 class="justify-content-center">Registro</h4>
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+    <input class="controls" type="password" name="contraseña" id="contrasena" placeholder="Ingrese su Contraseña">
+    <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo">
+    <input class="botons" type="submit" value="Registrar">
+    <p class="warnings" id="warnings"></p>
+</form>
 
 </body>
 </html>
