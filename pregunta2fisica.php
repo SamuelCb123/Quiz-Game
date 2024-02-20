@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pregunta 2</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="biologia.css">
+    <link rel="stylesheet" href="fisica.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="wrapper">
         <i class="fas fa-circle-question"></i>
-        <h2 class="question">¿Qué función tiene el sistema circulatorio en el cuerpo humano?</h2>
+        <h2 class="question">¿En qué unidad se mide la fuerza en el sistema internacional?</h2>
         <div class="btn-group">
     <div class="button-group-top">
-        <button>a)Transportar nutrientes y oxígeno</button>
-        <button>b)  Filtrar la sangre</button>
+        <button>a) Newton (N)</button>
+        <button>b) Julios (J)</button>
     </div>
     <div class="button-group-bottom">
-        <button>c) Almacenar energía</button>
-        <button>d)  Controlar la temperatura corporal</button>
+        <button>c) Vatios (W)</button>
+        <button>d) Pascal (Pa)</button>
     </div>
 </div>
 

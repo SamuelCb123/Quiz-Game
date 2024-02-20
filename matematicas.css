@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #c1ecc1 !important;
+    background: #add8e6 !important;
 }
 
 .wrapper {
@@ -56,10 +56,10 @@ button {
     width: 150px;
     margin: 5px; 
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
     border: none;
-    background-color: #4CAF50;
+    background-color: #4682b4;
     color: white;
     border-radius: 5px;
 }

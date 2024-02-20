@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #c1ecc1 !important;
+    background: #708090 !important; 
 }
 
 .wrapper {
@@ -33,34 +33,33 @@ i {
 
 h2 {
     font-size: 18px;
-   
-    margin: 15px; 
+    margin: 15px;
+    text-align: center;
 }
 
 .btn-group {
     width: 100%;
-    margin-top: 20px; 
+    margin-top: 20px;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
 }
 
 .button-group-top,
 .button-group-bottom {
     width: 100%;
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 
 button {
-    width: 150px;
-    margin: 5px; 
+    width: 200px;
+    margin: 5px;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
     border: none;
-    background-color: #4CAF50;
+    background-color: #2F4F4F; /* Gris acero en los botones */
     color: white;
     border-radius: 5px;
 }
-
