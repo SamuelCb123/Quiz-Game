@@ -22,22 +22,16 @@ CREATE TABLE Pregunta (
     FOREIGN KEY (id_tematica) REFERENCES Tematica(id_tematica)
 );
 
-CREATE TABLE Partida (
-    id_partida INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE Comentario (
+    id_comentario INT AUTO_INCREMENT PRIMARY KEY,
     id_usuario INT,
-    fecha DATETIME,
-    puntos INT,
+    comentario TEXT,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
 );
 
-CREATE TABLE PreguntaPartida (
-    IDpreguntapartida INT AUTO_INCREMENT PRIMARY KEY,
-    id_partida INT,
-    id_pregunta INT,
-    acertado BOOLEAN,
-    FOREIGN KEY (id_partida) REFERENCES Partida(id_partida),
-    FOREIGN KEY (id_pregunta) REFERENCES Pregunta(id_pregunta)
-);
+
+
 
 
 
