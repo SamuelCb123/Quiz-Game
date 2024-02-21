@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -40,7 +40,7 @@
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/biologia.jpg" class="card-img-top" alt="Biología" >
                     <div class="card-body">
-                        <a href="pregunta1biologia.php">
+                        <a href="Preguntas/pregunta1biologia.php">
                             <button class="botones">PLAY</button>
                         </a> 
                     </div>
@@ -49,7 +49,7 @@
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/matematicas.png" class="card-img-top" alt="Matemáticas">
                     <div class="card-body">
-                        <a href="pregunta1matematicas.php">
+                        <a href="Preguntas/pregunta1matematicas.php">
                             <button class="botones">PLAY</button>
                         </a> 
                     </div>
@@ -58,7 +58,7 @@
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/fisica.jpeg" class="card-img-top" alt="fisica">
                     <div class="card-body">
-                        <a href="pregunta1fisica.php">
+                        <a href="Preguntas/pregunta1fisica.php">
                             <button class="botones">PLAY</button>
                         </a> 
                     </div>
@@ -67,7 +67,7 @@
                 <div class="card" style="width: 18rem; display: inline-block;">
                     <img src="IMG/qumica.jpg" class="card-img-top" alt="quimica">
                     <div class="card-body">
-                        <a href="pregunta1quimica.php">
+                        <a href="Preguntas/pregunta1quimica.php">
                             <button class="botones">PLAY</button>
                         </a> 
                     </div>
