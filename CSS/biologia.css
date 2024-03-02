@@ -33,7 +33,6 @@ i {
 
 h2 {
     font-size: 18px;
-   
     margin: 15px; 
 }
 
@@ -52,9 +51,10 @@ h2 {
     justify-content: space-evenly; 
 }
 
-button {
+.button-group-top button,
+.button-group-bottom button {
     width: 150px;
-    margin: 5px; 
+    margin: 5px; /* Ajusta el margen según sea necesario */
     padding: 10px;
     font-size: 1.2em;
     font-weight: 600;

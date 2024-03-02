@@ -2,15 +2,14 @@ function getPuntos() {
     return parseInt(localStorage.getItem('puntos')) || 0;
 }
 
-let puntos = getPuntos(); // Inicializar los puntos desde el localStorage
+let puntos = getPuntos(); 
 
-// Función para actualizar los puntos en la interfaz y en el localStorage
+
 function actualizarPuntos(puntos) {
     localStorage.setItem('puntos', puntos);
     document.getElementById('puntosMostrados').innerHTML = 'Puntos: ' + puntos;
 }
 
-// Función para verificar la respuesta
 function checkAnswer(selectedAnswer) {
     const respuestaCorrecta = 'b';
 
@@ -23,6 +22,68 @@ function checkAnswer(selectedAnswer) {
         restarPuntos(5);
     }
 }
+
+function checkAnswer2(selectedAnswer) {
+    const respuestaCorrecta = 'b';
+
+    if (selectedAnswer === respuestaCorrecta) {
+        alert('¡Respuesta correcta!');
+        // Llama a la función sumarPuntos si está definida
+        if (typeof sumarPuntos === 'function') {
+            sumarPuntos(10);
+        }
+        // Cambia la ubicación si es necesario
+        window.location.href = 'Pregunta3Biologia.php?puntos=' + puntos;
+    } else {
+        alert('Respuesta incorrecta.');
+        
+        if (typeof restarPuntos === 'function') {
+            restarPuntos(5);
+        }
+    }
+}
+
+function checkAnswer3(selectedAnswer) {
+    const respuestaCorrecta = 'c';
+
+    if (selectedAnswer === respuestaCorrecta) {
+        alert('¡Respuesta correcta!');
+        // Llama a la función sumarPuntos si está definida
+        if (typeof sumarPuntos === 'function') {
+            sumarPuntos(10);
+        }
+      
+        window.location.href = 'Pregunta4biologia.php?puntos=' + puntos;
+    } else {
+        alert('Respuesta incorrecta.');
+        
+        if (typeof restarPuntos === 'function') {
+            restarPuntos(5);
+        }
+        
+    }
+}
+
+
+function checkAnswer4(selectedAnswer) {
+    const respuestaCorrecta = 'c';
+
+    if (selectedAnswer === respuestaCorrecta) {
+        alert('¡Respuesta correcta!');
+      
+        if (typeof sumarPuntos === 'function') {
+            sumarPuntos(10);
+        }
+      
+        window.location.href = '../secciones.php'
+    } else {
+        alert('Respuesta incorrecta.');
+        
+        
+        
+    }
+}
+
 
 // Función para sumar puntos
 function sumarPuntos(puntosASumar) {
