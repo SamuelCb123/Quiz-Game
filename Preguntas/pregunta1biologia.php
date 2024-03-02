@@ -15,17 +15,24 @@
         <h2 class="question">¿Cuál es el gas esencial para la respiración de los seres vivos?</h2>
         <div class="btn-group">
             <div class="button-group-top">
-                <button>a) Dióxido de carbono (CO2)</button>
-                <button>b) Oxígeno (O2)</button>
+                <button onclick="checkAnswer('a')">a) Dióxido de carbono (CO2)</button>
+                <button onclick="checkAnswer('b')">b) Oxígeno (O2)</button>
             </div>
             <div class="button-group-bottom">
-                <button>c) Nitrógeno (N2)</button>
-                <button>d) Hidrógeno (H2)</button>
+                <button onclick="checkAnswer('c')">c) Nitrógeno (N2)</button>
+                <button onclick="checkAnswer('d')">d) Hidrógeno (H2)</button>
             </div>
         </div>
     </div>
+
+    <div id="puntosMostrados">Puntos: 0</div>
+
+    <script defer src='respuestas.js'></script>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
+
