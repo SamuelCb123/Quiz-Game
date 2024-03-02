@@ -6,6 +6,7 @@
     <title>Comentarios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 <body>
@@ -23,14 +24,7 @@
                 <li><a href="#galeria" class="nav-link px-2 text-white">Imágenes del juego</a></li>
             </ul>
 
-            <div class="text-end">
-                <a href="registro.php">
-                    <button class="botones">Registro</button>
-                </a>
-                <a href="iniciarsesion.php">
-                    <button class="botones">Iniciar sesión</button>
-                </a>
-            </div>
+
         </div>
     </div>
 </header>

@@ -12,7 +12,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 <body>
 
-<header class="p-3 bg-dark text-white">
+<header class="p-3 bg-dark text-white text-center">
     <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -21,12 +21,11 @@
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center align-items-center mb-md-0">
                 <li><a href="index.php" class="nav-link px-2 text-white">Inicio</a></li>
-                <li><a href="matematicas.php" class="nav-link px-2 text-white">Matematicas</a></li>
-                <li><a href="biologia.php" class="nav-link px-2 text-white">Biologia</a></li>
-                <li><a href="fisica.php" class="nav-link px-2 text-white">Fisica</a></li>
-                <li><a href="quimica.php" class="nav-link px-2 text-white">Quimica</a></li>
-                <li><a href="general.php" class="nav-link px-2 text-white">General</a></li>
-                
+                <li><a href="Preguntas/pregunta1matematicas.php" class="nav-link px-2 text-white">Matematicas</a></li>
+                <li><a href="Preguntas/pregunta1biologia.php" class="nav-link px-2 text-white">Biologia</a></li>
+                <li><a href="Preguntas/pregunta1fisica.php" class="nav-link px-2 text-white">Fisica</a></li>
+                <li><a href="Preguntas/pregunta1quimica.php" class="nav-link px-2 text-white">Quimica</a></li>
+                <li><a href="opiniones.php" class="nav-link px-2 text-white">Opiniones</a></li>
             </ul>
         </div>
     </div>
