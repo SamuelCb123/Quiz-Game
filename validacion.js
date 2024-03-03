@@ -1,7 +1,7 @@
 "use strict";
 
 const nombre = document.getElementById("nombre");
-const contraseña = document.getElementById("contrasena"); // Corrección aquí
+const contraseña = document.getElementById("contrasena"); 
 const email = document.getElementById("email");
 const form = document.getElementById("form");
 const parrafo = document.getElementById("warnings");
